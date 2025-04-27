@@ -3,6 +3,8 @@
 This project simulates managing airplane tickets based on a custom ticket string format, using Python functions built through the Function Design Recipe approach.  
 It was developed as part of my coursework for CSCA08H3 at the University of Toronto Scarborough during Winter 2025.
 
+**Grade Received: 98%**
+
 ## Project Overview
 
 The goal of this assignment was to:
