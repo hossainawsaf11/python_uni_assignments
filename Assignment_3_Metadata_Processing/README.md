@@ -40,6 +40,49 @@ Example article stored:
     'authors': [('Ponce', 'Marcelo'), ('Tafliovich', 'Anya Y.')],
     'abstract': 'We present clear evidence that Introduction to\nComputer Science is the best course.'
 }
+```
 
 
+## Tasks Completed
+
+- **Reading metadata files** and building structured dictionaries (`read_arxiv_file`).
+- **Modeling articles and authors**: creating structured records with IDs, titles, authors, dates, and abstracts.
+- **Analyzing metadata**:
+  - Finding coauthors (`get_coauthors`)
+  - Identifying prolific authors (`get_most_published_authors`)
+  - Suggesting new collaboration opportunities (`suggest_collaborators`)
+- **Filtering metadata**:
+  - Keeping only articles authored by prolific researchers (`keep_prolific_authors`)
+- **Testing**:
+  - Creating a complete unittest suite (`test_get_most_published_authors.py`) to verify correctness.
+
+Each function was written using clean modular design, following the Function Design Recipe with clear contracts and doctests where applicable.
+
+## Skills Practiced
+
+- File parsing and line-by-line reading
+- Building and managing complex nested dictionaries and tuples
+- String processing and data validation
+- Data transformation and organization
+- Writing robust modular Python functions
+- Writing unit tests using `unittest`
+- Following clean code practices (PEP8 style guidelines)
+
+## Files
+
+- `arxiv_functions.py`: Main file containing all assignment functions.
+- `constants.py`: File containing predefined constants used across modules.
+- `test_get_most_published_authors.py`: Unit test file for verifying author-based functions.
+- `example_data.txt` and `data.txt`: Provided sample metadata files for testing and development.
+- `a3_checker.py`: Provided checker script to validate function headers, return types, and PEP8 compliance.
+
+## Checker Information
+
+The provided `a3_checker.py` script was used to ensure:
+- All functions match required signatures and types
+- Python coding style guidelines (PEP8) are fully followed
+
+Passing the checker verifies structural and style correctness; functional correctness was achieved through careful manual testing and automated unit tests.
+
+---
 
